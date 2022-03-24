@@ -10,6 +10,7 @@ export const Container = styled.header`
   align-items: center;
   justify-content: center;
   height: 10rem;
+  justify-content: space-between;
 
   ul {
     display: flex;
@@ -29,5 +30,21 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
       color: ${props => props.theme.primary};
       text-shadow: 0 0 15px ${props => props.theme.primary};
     }
+  }
+`;
+
+export const ButtonPrimary = styled.div`
+  pointer-events: auto;
+  cursor: pointer;
+  background: ${props => props.theme.primary};
+  border: none;
+  padding: 1.2rem 2rem;
+  color: ${props => props.theme.background};
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  &:hover {
+    box -shadow: 0 0 15px ${props => props.theme.primary};
   }
 `;
