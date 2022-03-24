@@ -45,6 +45,6 @@ export const ButtonPrimary = styled.div`
   font-weight: 600;
 
   &:hover {
-    box -shadow: 0 0 15px ${props => props.theme.primary};
+    box-shadow: 0 0 15px ${props => props.theme.primary};
   }
 `;
