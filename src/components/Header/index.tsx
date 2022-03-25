@@ -7,14 +7,14 @@ import logo from '../../assets/logo.png';
 function Header() {
   return (
     <Container>
-      <Image src={logo} alt="logo xbox x" width={144} height={44} />
+      <Image src={logo} alt="logo xbox x" width={208} height={25} />
       <ul>
-        <NavLink title="Browser" path="/" />
-        <NavLink title="Games" path="/games" />
-        <NavLink title="Controller" path="/controller" />
-        <NavLink title="Inside" path="/inside" />
+        <NavLink title="Home" path="/" />
+        <NavLink title="Sobre mim" path="/about" />
+        <NavLink title="Jobs" path="/jobs" />
+        <NavLink title="Habilidades" path="/skills" />
       </ul>
-      <ButtonPrimary>Order console</ButtonPrimary>
+      <ButtonPrimary>Contato</ButtonPrimary>
     </Container>
   );
 }
